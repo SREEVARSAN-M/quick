@@ -1,0 +1,13 @@
+/* src/fonts/calsans.css */
+@font-face {
+    font-family: 'CalSans';
+    src: url('/path/to/CalSans.woff2') format('woff2'),
+         url('/path/to/CalSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'CalSans', sans-serif;
+  }
+  
